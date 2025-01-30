@@ -1,0 +1,8 @@
+replicas: 4
+
+app:
+  con1: blacon
+  image: httpd:latest
+  port: 80
+  service:
+    enabled: true ### Boolean statement  ### I had

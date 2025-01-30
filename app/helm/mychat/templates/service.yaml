@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: newpod-svc
+spec:
+  type: NodePort
+  selector:
+    {{- include "appdep.labels" . | nindent 5 }} ### 5 indentations, because we have 5 white spaces
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+    nodePort: 30123
