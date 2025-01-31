@@ -3,12 +3,12 @@ entries:
   mychat:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-01-30T14:59:04.650452876-05:00"
+    created: "2025-01-31T18:12:09.514927752-05:00"
     description: A Helm chart for Kubernetes
-    digest: 2fd6559705c3b89f43cd9282e06fef9051d85756c9eeaa333486160e29ea06ab
+    digest: 88cfa35e87b00246b3d45f8b5a29cadbcf8baacb48e1ef4f74b2afd0bdee4113
     name: mychat
     type: application
     urls:
     - mychat-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-30T14:59:04.647376651-05:00"
+generated: "2025-01-31T18:12:09.508036815-05:00"
